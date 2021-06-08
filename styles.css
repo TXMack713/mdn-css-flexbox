@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  hyphens: auto;
+  word-break: break-all;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Yeseva One', cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: aliceblue;
+  background-image: url('https://images.pexels.com/photos/6076178/pexels-photo-6076178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: lightblue;
+}
+
+header {
+  text-align: center;
+}
