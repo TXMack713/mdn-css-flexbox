@@ -30,7 +30,49 @@ header {
   text-align: center;
 }
 
-nav ul {
+.background-info {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  padding: 0.8rem;
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5rem;
+}
+
+/* Styles specific to Flexbox assessment 1 */
+
+div.assessment1 {
+  /* background-color: #fff; */
+  color: aliceblue;
+  font: 1.2rem / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1rem;
+  margin: 0;
+}
+
+div.assessment1 nav ul {
+  max-width: 700px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px dotted black;
+}
+
+div.assessment1 nav a:link,
+div.assessment1 nav a:visited {
+  background-color: #4d7298;
+  /* border: 2px solid #77a6b6; */
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+div.assessment1 nav ul {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
@@ -40,8 +82,108 @@ nav ul {
   /* text-decoration: none; */
 }
 
-nav a {
+div.assessment1 nav a {
   font-size: 1.2rem;
   text-decoration: none;
   /* background: hsl(220, 35%, 80%, 0.375); */
+}
+
+/* Styles specific to Flexbox assessment 2 */
+
+div.assessment2 {
+  /* background-color: #fff; */
+  color: aliceblue;
+  font: 1.2rem / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1rem;
+  padding-top: 0;
+  margin: 0;
+}
+
+div.assessment2 ul {
+  display: flex;
+  max-width: 700px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div.assessment2 li {
+  flex: 1;
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+}
+
+div.assessment2 li:first-of-type {
+  flex: 2;
+}
+
+/* Styles specific to Flexbox Assessment 3 */
+
+div.assessment3 {
+  /* background-color: #fff; */
+  color: aliceblue;
+  font: 1.2rem / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1rem;
+  padding-top: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap;
+}
+
+div.assessment3 .parent {
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #4d7298;
+}
+
+div.assessment3 .child {
+  background-color: #4d7298;
+  color: #fff;
+  padding: 0.5em;
+  width: 150px;
+  align-self: center;
+  text-align: center;
+}
+
+/* Styles specific to Flexbox Assessment 4 */
+
+div.assessment4 {
+  /* background-color: #fff; */
+  color: aliceblue;
+  font: 1.2rem / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1rem;
+  padding-top: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.assessment4 ul {
+  width: 450px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid;
+}
+
+div.assessment4 li {
+  background-color: #4d7298;
+  border: 2px solid #77a6b6;
+  border-radius: 0.5em;
+  color: #fff;
+  padding: 0.5em;
+  margin: 0.5em;
 }
